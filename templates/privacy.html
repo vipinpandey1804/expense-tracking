@@ -4,36 +4,61 @@
 
 {% block content %}
 
-<section class="hero" style="min-height: unset; padding: 4rem 2rem 2rem;">
-    <div class="hero-inner" style="max-width: 720px; margin: 0 auto; text-align: left;">
-        <h1 class="hero-title" style="font-size: 2.2rem;">Privacy Policy</h1>
-        <p class="hero-subtitle" style="margin-bottom: 2rem;">Last updated: April 2026</p>
+<section class="legal-section">
+    <div class="legal-inner">
 
-        <h3>1. Information We Collect</h3>
-        <p style="margin-bottom: 1.2rem;">We collect the information you provide when you create an account (such as your name and email address) and the expense data you enter while using Spendly. We do not collect financial account credentials or payment information.</p>
+        <a href="{{ url_for('landing') }}" class="legal-back">← Back to home</a>
 
-        <h3>2. How We Use Your Information</h3>
-        <p style="margin-bottom: 1.2rem;">Your information is used solely to operate and improve Spendly — to display your expenses, generate summaries, and keep your account secure. We do not sell or share your personal data with third parties for marketing purposes.</p>
+        <div class="legal-header">
+            <span class="legal-badge">Legal</span>
+            <h1 class="legal-title">Privacy Policy</h1>
+            <p class="legal-meta">Last updated: April 2026</p>
+        </div>
 
-        <h3>3. Data Storage</h3>
-        <p style="margin-bottom: 1.2rem;">Your data is stored securely on our servers. We take reasonable technical measures to protect your information from unauthorised access, alteration, or disclosure.</p>
+        <div class="legal-body">
 
-        <h3>4. Cookies</h3>
-        <p style="margin-bottom: 1.2rem;">Spendly uses session cookies strictly necessary for authentication. We do not use tracking or advertising cookies.</p>
+            <div class="legal-article">
+                <h2 class="legal-article-title">1. Information We Collect</h2>
+                <p class="legal-article-text">We collect the information you provide when you create an account (such as your name and email address) and the expense data you enter while using Spendly. We do not collect financial account credentials or payment information.</p>
+            </div>
 
-        <h3>5. Data Retention</h3>
-        <p style="margin-bottom: 1.2rem;">We retain your data for as long as your account is active. You may request deletion of your account and associated data at any time by contacting us.</p>
+            <div class="legal-article">
+                <h2 class="legal-article-title">2. How We Use Your Information</h2>
+                <p class="legal-article-text">Your information is used solely to operate and improve Spendly — to display your expenses, generate summaries, and keep your account secure. We do not sell or share your personal data with third parties for marketing purposes.</p>
+            </div>
 
-        <h3>6. Your Rights</h3>
-        <p style="margin-bottom: 1.2rem;">You have the right to access, correct, or delete the personal information we hold about you. To exercise these rights, please contact us through the app.</p>
+            <div class="legal-article">
+                <h2 class="legal-article-title">3. Data Storage</h2>
+                <p class="legal-article-text">Your data is stored securely on our servers. We take reasonable technical measures to protect your information from unauthorised access, alteration, or disclosure.</p>
+            </div>
 
-        <h3>7. Changes to This Policy</h3>
-        <p style="margin-bottom: 1.2rem;">We may update this Privacy Policy occasionally. We will notify you of significant changes by posting a notice within the app or by email.</p>
+            <div class="legal-article">
+                <h2 class="legal-article-title">4. Cookies</h2>
+                <p class="legal-article-text">Spendly uses session cookies strictly necessary for authentication. We do not use tracking or advertising cookies.</p>
+            </div>
 
-        <h3>8. Contact</h3>
-        <p style="margin-bottom: 2rem;">If you have questions about this Privacy Policy, please reach out through the contact information provided within the app.</p>
+            <div class="legal-article">
+                <h2 class="legal-article-title">5. Data Retention</h2>
+                <p class="legal-article-text">We retain your data for as long as your account is active. You may request deletion of your account and associated data at any time by contacting us.</p>
+            </div>
 
-        <a href="{{ url_for('landing') }}" class="btn-ghost">← Back to home</a>
+            <div class="legal-article">
+                <h2 class="legal-article-title">6. Your Rights</h2>
+                <p class="legal-article-text">You have the right to access, correct, or delete the personal information we hold about you. To exercise these rights, please contact us through the app.</p>
+            </div>
+
+            <div class="legal-article">
+                <h2 class="legal-article-title">7. Changes to This Policy</h2>
+                <p class="legal-article-text">We may update this Privacy Policy occasionally. We will notify you of significant changes by posting a notice within the app or by email.</p>
+            </div>
+
+            <div class="legal-article">
+                <h2 class="legal-article-title">8. Contact</h2>
+                <p class="legal-article-text">If you have questions about this Privacy Policy, please reach out through the contact information provided within the app.</p>
+            </div>
+
+        </div>
+
     </div>
 </section>
 
